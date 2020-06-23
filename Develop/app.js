@@ -101,7 +101,7 @@ const team = () => {
         newTeam()
     };
 
-    // Question if user wants to continue adding members or if should create the new file
+
     const newTeam = async () => {
         const res = await inquirer.prompt([
             {
@@ -131,8 +131,6 @@ const team = () => {
 };
 
 team();
-
-
 
 
 
